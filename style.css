@@ -4,31 +4,66 @@ body {
     padding: 0;
 }
 
-h1 {
-    color: #fff;
+#header {
+    height: 10vh;
     text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 60px;
+    font-family: Helvetica;
+}
+
+#container {
+    min-height: 90vh;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    height: 80px;
+    min-width: 432px;
+    background-color: #bdc3c7;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .task {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 12%;
+    padding: 5px;
+    border-right: 1px solid #7f8c8d;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
 }
 
-.desciption {
+.description {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 76%;
+    padding: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
 }
 
 .criticality {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 12%;
+    padding: 5px;
+    border-left: 1px solid #7f8c8d;
+    font-size: 20px;
+    font-family: monospace;
 }
 
