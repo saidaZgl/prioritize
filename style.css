@@ -1,0 +1,34 @@
+body {
+    background-color: #2E3F4F;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desciption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.criticality {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
